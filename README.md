@@ -36,8 +36,10 @@ The goal is to identify factors driving customer satisfaction or dissatisfaction
 ---
 
 **Introducing the Problem**
+
 ***How can we implement a machine learning model to accurately classify appliance
 reviews, ensuring strong performance for both positive and negative feedback?***
+
 For this project, we will be analyzing a large-scale Amazon Reviews dataset from 2023,
 which contains 48.19 million items and 571.54 million reviews. Our primary focus will be
 on the Appliances category within this dataset.
@@ -53,6 +55,7 @@ derived from polarity scores as well as the rating scale.
 
 
 **Why It Is Important/Useful to Solve This Problem**
+
 Solving this problem is crucial for several reasons. First, it will lead to improved customer
 satisfaction insights, allowing manufacturers and retailers to adjust their product
 strategies. Second, addressing this issue will result in better-targeted marketing and
@@ -61,6 +64,7 @@ advancements in sentiment analysis and NLP applications within e-commerce.
 
 
 **Pitch to Stakeholders**
+
 To gain buy-in from stakeholders, I emphasized the potential benefits of solving this
 problem. By accurately classifying sentiment in appliance reviews, we can expect to see
 improved customer experience through targeted product improvements and more effective
@@ -69,6 +73,7 @@ utilizing advanced data science techniques to drive innovation and growth.
 
 
 **Data Acquisition**
+
 The data for this project was obtained from:
 • Amazon Reviews 2023 dataset
 This source offers comprehensive details, including product ratings, review texts, and
@@ -77,6 +82,7 @@ make it an ideal resource for uncovering trends and patterns that can drive impr
 in both customer satisfaction and business performance.
 
 **Conclusion**
+
 Model Evaluation and Insights
 The model achieved an accuracy of 0.91, with a detailed report below highlighting the F1
 scores for both negative and positive reviews.
@@ -108,11 +114,13 @@ identifying positive reviews but shows moderate performance with negative review
 precision, 67% recall). The weighted averages for precision, recall, and F1-score are all
 0.90, reflecting strong overall performance. The Area Under the Curve (AUC) is 0.94,
 indicating a strong classifier.
+
 After completing the project, the Logistic Regression model performed well on classifying
 appliance review sentiments. The evaluation metrics showed that the model was able to
 distinguish between positive and negative sentiments with reasonable accuracy (91%).
 
 **Deployment Readiness**
+
 The model isn't fully ready for deployment yet. To improve these topics can be addressed:
 - Addressing Bias: Adjust class weights or resample the data to handle class
 imbalance, especially for negative reviews.
@@ -121,6 +129,7 @@ imbalance, especially for negative reviews.
 negative reviews.
 
 **Recommendations for Future Work**
+
 In the future, I recommend exploring more advanced NLP techniques such as BERT, which
 can capture contextual meaning in the reviews better than simpler models. I also suggest
 applying the model to different product categories and continuously updating it to handle
@@ -128,6 +137,7 @@ new data and evolving language patterns.
 
 
 **Challenges and Opportunities**
+
 A significant challenge I faced was handling the imbalance between positive and negative
 sentiment in the dataset. However, this project provides an opportunity to explore deeper
 into NLP and build models that can address more nuanced sentiment categories or multiclass classifications
