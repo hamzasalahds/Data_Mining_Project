@@ -1,4 +1,4 @@
-# DSC 550 Data Mining -- Sentiment Analysis of Customer Reviews
+## <div align="center">  DSC 550 Data Mining -- Sentiment Analysis of Customer Reviews </div>
 
 ## Overview
 This project is part of the DSC 550 Data Mining course. It aims to apply various data mining techniques, such as classification, clustering, or regression, to a real-world dataset. The project explores different approaches to data preprocessing, model building, and performance evaluation.
