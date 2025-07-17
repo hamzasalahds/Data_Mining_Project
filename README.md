@@ -3,6 +3,8 @@
 ## Overview
 This project is part of the DSC 550 Data Mining course. It aims to apply various data mining techniques, such as classification, clustering, or regression, to a real-world dataset. The project explores different approaches to data preprocessing, model building, and performance evaluation.
 
+- [Paper Link](https://github.com/hamzasalahds/amazon_reviews/blob/main/Salah_DSC_Final_Summary.pdf)
+
 ## Dataset
 - **Dataset Name**: Amazon Reviews dataset from 2023
 - **Source**: [Amazon Reviews 2023 dataset](https://amazon-reviews-2023.github.io/#grouped-by-category)
